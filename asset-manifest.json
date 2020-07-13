@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/liberteofuturo-react/static/css/main.dc895e6a.chunk.css",
-    "main.js": "/liberteofuturo-react/static/js/main.57d4a091.chunk.js",
-    "main.js.map": "/liberteofuturo-react/static/js/main.57d4a091.chunk.js.map",
+    "main.js": "/liberteofuturo-react/static/js/main.b5616864.chunk.js",
+    "main.js.map": "/liberteofuturo-react/static/js/main.b5616864.chunk.js.map",
     "runtime-main.js": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js",
     "runtime-main.js.map": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js.map",
     "static/css/2.6c27cde9.chunk.css": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css",
-    "static/js/2.c0eeb6aa.chunk.js": "/liberteofuturo-react/static/js/2.c0eeb6aa.chunk.js",
-    "static/js/2.c0eeb6aa.chunk.js.map": "/liberteofuturo-react/static/js/2.c0eeb6aa.chunk.js.map",
+    "static/js/2.27e5be34.chunk.js": "/liberteofuturo-react/static/js/2.27e5be34.chunk.js",
+    "static/js/2.27e5be34.chunk.js.map": "/liberteofuturo-react/static/js/2.27e5be34.chunk.js.map",
     "index.html": "/liberteofuturo-react/index.html",
-    "precache-manifest.7f8ed192be9dddff48eff6f17ba837fa.js": "/liberteofuturo-react/precache-manifest.7f8ed192be9dddff48eff6f17ba837fa.js",
+    "precache-manifest.b904b095452122686eb586c4dd85db83.js": "/liberteofuturo-react/precache-manifest.b904b095452122686eb586c4dd85db83.js",
     "service-worker.js": "/liberteofuturo-react/service-worker.js",
     "static/css/2.6c27cde9.chunk.css.map": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css.map",
     "static/css/main.dc895e6a.chunk.css.map": "/liberteofuturo-react/static/css/main.dc895e6a.chunk.css.map",
-    "static/js/2.c0eeb6aa.chunk.js.LICENSE.txt": "/liberteofuturo-react/static/js/2.c0eeb6aa.chunk.js.LICENSE.txt",
+    "static/js/2.27e5be34.chunk.js.LICENSE.txt": "/liberteofuturo-react/static/js/2.27e5be34.chunk.js.LICENSE.txt",
     "static/media/HOME_DESTAQUE_13.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_13.3f987b97.jpg",
     "static/media/HOME_DESTAQUE_4.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_4.7b79e5ad.jpg",
     "static/media/antidotos.svg": "/liberteofuturo-react/static/media/antidotos.e57b038e.svg",
@@ -27,13 +27,13 @@
     "static/media/logo_horizontal.svg": "/liberteofuturo-react/static/media/logo_horizontal.30f8fd2e.svg",
     "static/media/logo_vertical.svg": "/liberteofuturo-react/static/media/logo_vertical.bd4d1e00.svg",
     "static/media/slick-theme.css": "/liberteofuturo-react/static/media/slick.f97e3bbf.svg",
-    "static/media/teaser.MP4": "/liberteofuturo-react/static/media/teaser.8b476435.MP4"
+    "static/media/teaser.mp4": "/liberteofuturo-react/static/media/teaser.8b476435.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.3f615cb3.js",
     "static/css/2.6c27cde9.chunk.css",
-    "static/js/2.c0eeb6aa.chunk.js",
+    "static/js/2.27e5be34.chunk.js",
     "static/css/main.dc895e6a.chunk.css",
-    "static/js/main.57d4a091.chunk.js"
+    "static/js/main.b5616864.chunk.js"
   ]
 }

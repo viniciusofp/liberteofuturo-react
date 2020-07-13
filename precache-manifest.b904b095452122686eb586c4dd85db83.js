@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e2a411f6554c7f426adb2e1a7b32f45",
+    "revision": "2944d953916a0794098b977b5b154842",
     "url": "/liberteofuturo-react/index.html"
   },
   {
-    "revision": "9eaeb5887280e455ee5c",
+    "revision": "eb589f4df48d60bbc11e",
     "url": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css"
   },
   {
-    "revision": "f1dc8f061cb6f509299f",
+    "revision": "f0f75845625c627ebfe4",
     "url": "/liberteofuturo-react/static/css/main.dc895e6a.chunk.css"
   },
   {
-    "revision": "9eaeb5887280e455ee5c",
-    "url": "/liberteofuturo-react/static/js/2.c0eeb6aa.chunk.js"
+    "revision": "eb589f4df48d60bbc11e",
+    "url": "/liberteofuturo-react/static/js/2.27e5be34.chunk.js"
   },
   {
     "revision": "87e7d156e76bf0ee9b32832aeb012217",
-    "url": "/liberteofuturo-react/static/js/2.c0eeb6aa.chunk.js.LICENSE.txt"
+    "url": "/liberteofuturo-react/static/js/2.27e5be34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1dc8f061cb6f509299f",
-    "url": "/liberteofuturo-react/static/js/main.57d4a091.chunk.js"
+    "revision": "f0f75845625c627ebfe4",
+    "url": "/liberteofuturo-react/static/js/main.b5616864.chunk.js"
   },
   {
     "revision": "07ce7061933eff049d89",
@@ -97,6 +97,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8b4764350833680aab1f241724d1478f",
-    "url": "/liberteofuturo-react/static/media/teaser.8b476435.MP4"
+    "url": "/liberteofuturo-react/static/media/teaser.8b476435.mp4"
   }
 ]);
