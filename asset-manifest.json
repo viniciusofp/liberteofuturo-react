@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/liberteofuturo-react/static/css/main.a74ebff4.chunk.css",
+    "main.css": "/liberteofuturo-react/static/css/main.202a7f3b.chunk.css",
     "main.js": "/liberteofuturo-react/static/js/main.82e206be.chunk.js",
     "main.js.map": "/liberteofuturo-react/static/js/main.82e206be.chunk.js.map",
     "runtime-main.js": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js",
@@ -9,10 +9,10 @@
     "static/js/2.0f44f582.chunk.js": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js",
     "static/js/2.0f44f582.chunk.js.map": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.map",
     "index.html": "/liberteofuturo-react/index.html",
-    "precache-manifest.b29bea3b3bba16c10aaa54484b5b032c.js": "/liberteofuturo-react/precache-manifest.b29bea3b3bba16c10aaa54484b5b032c.js",
+    "precache-manifest.88bc66d1f47d10d527dd52466691575d.js": "/liberteofuturo-react/precache-manifest.88bc66d1f47d10d527dd52466691575d.js",
     "service-worker.js": "/liberteofuturo-react/service-worker.js",
     "static/css/2.6c27cde9.chunk.css.map": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css.map",
-    "static/css/main.a74ebff4.chunk.css.map": "/liberteofuturo-react/static/css/main.a74ebff4.chunk.css.map",
+    "static/css/main.202a7f3b.chunk.css.map": "/liberteofuturo-react/static/css/main.202a7f3b.chunk.css.map",
     "static/js/2.0f44f582.chunk.js.LICENSE.txt": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.LICENSE.txt",
     "static/media/HOME_DESTAQUE_13.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_13.3f987b97.jpg",
     "static/media/HOME_DESTAQUE_2.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_2.6bf028b7.jpg",
@@ -43,7 +43,7 @@
     "static/js/runtime-main.3f615cb3.js",
     "static/css/2.6c27cde9.chunk.css",
     "static/js/2.0f44f582.chunk.js",
-    "static/css/main.a74ebff4.chunk.css",
+    "static/css/main.202a7f3b.chunk.css",
     "static/js/main.82e206be.chunk.js"
   ]
 }
