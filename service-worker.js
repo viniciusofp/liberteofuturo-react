@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/liberteofuturo-react/precache-manifest.88bc66d1f47d10d527dd52466691575d.js"
+  "/liberteofuturo-react/precache-manifest.14c0d20073358f0769cd36279265d669.js"
 );
 
 self.addEventListener('message', (event) => {

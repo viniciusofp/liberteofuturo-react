@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/liberteofuturo-react/static/css/main.202a7f3b.chunk.css",
-    "main.js": "/liberteofuturo-react/static/js/main.82e206be.chunk.js",
-    "main.js.map": "/liberteofuturo-react/static/js/main.82e206be.chunk.js.map",
+    "main.js": "/liberteofuturo-react/static/js/main.8e05553e.chunk.js",
+    "main.js.map": "/liberteofuturo-react/static/js/main.8e05553e.chunk.js.map",
     "runtime-main.js": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js",
     "runtime-main.js.map": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js.map",
     "static/css/2.6c27cde9.chunk.css": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css",
     "static/js/2.0f44f582.chunk.js": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js",
     "static/js/2.0f44f582.chunk.js.map": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.map",
     "index.html": "/liberteofuturo-react/index.html",
-    "precache-manifest.88bc66d1f47d10d527dd52466691575d.js": "/liberteofuturo-react/precache-manifest.88bc66d1f47d10d527dd52466691575d.js",
+    "precache-manifest.14c0d20073358f0769cd36279265d669.js": "/liberteofuturo-react/precache-manifest.14c0d20073358f0769cd36279265d669.js",
     "service-worker.js": "/liberteofuturo-react/service-worker.js",
     "static/css/2.6c27cde9.chunk.css.map": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css.map",
     "static/css/main.202a7f3b.chunk.css.map": "/liberteofuturo-react/static/css/main.202a7f3b.chunk.css.map",
@@ -44,6 +44,6 @@
     "static/css/2.6c27cde9.chunk.css",
     "static/js/2.0f44f582.chunk.js",
     "static/css/main.202a7f3b.chunk.css",
-    "static/js/main.82e206be.chunk.js"
+    "static/js/main.8e05553e.chunk.js"
   ]
 }
