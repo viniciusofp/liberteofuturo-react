@@ -13,6 +13,7 @@ class Participe extends Component {
           logo={`/assets/logos/logo_vertical.svg`}
           descricao={participe.subtitulo}
           titulo={participe.titulo}
+          header="participe"
         />
         <div className="page_content">
           <Container>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Papa from 'papaparse';
+import _ from 'lodash';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
@@ -29,27 +30,27 @@ class App extends Component {
       {
         category: 'antidotos',
         url:
-          'https://raw.githubusercontent.com/associacaosilo/liberteofuturo-site/gh-pages/_data/antidoto.csv',
+          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=0&single=true&output=csv',
       },
       {
         category: 'clima',
         url:
-          'https://raw.githubusercontent.com/associacaosilo/liberteofuturo-site/gh-pages/_data/clima.csv',
+          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=2026617917&single=true&output=csv',
       },
       {
         category: 'consumo',
         url:
-          'https://raw.githubusercontent.com/associacaosilo/liberteofuturo-site/gh-pages/_data/consumo.csv',
+          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=1098268932&single=true&output=csv',
       },
       {
         category: 'democracia',
         url:
-          'https://raw.githubusercontent.com/associacaosilo/liberteofuturo-site/gh-pages/_data/democracia.csv',
+          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=666431457&single=true&output=csv',
       },
       {
         category: 'insurreicao',
         url:
-          'https://raw.githubusercontent.com/associacaosilo/liberteofuturo-site/gh-pages/_data/insurreicao.csv',
+          'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=1877781102&single=true&output=csv',
       },
     ],
   };
@@ -60,11 +61,20 @@ class App extends Component {
         header: true,
         complete: (results) => {
           var res = results.data;
+          res = _.filter(res, { publicar_no_site: 'SIM' });
+          res = _.orderBy(res, ['destaque', 'ordem'], ['desc', 'desc']);
+          res = res.map((video) => {
+            video.identificador = video.identificador.trim();
+            return video;
+          });
           data.categories[item.category].videos = res;
           this.setState({ data });
         },
       });
     });
+
+    const antidotoUrl =
+      'https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vRs1WKi9EBE0T_Wlhh9QETMz-6lxqf27-ysUTZNmQOR_pVF3Wa27rPAPxUnTjz2Pn3Ds1BJokbjDqX9/pub?gid=0&single=true&output=csv';
   }
   _handleLang = (selectedLang) => {
     const lang = selectedLang;
@@ -85,19 +95,19 @@ class App extends Component {
             onChangeLang={(selectedLang) => this._handleLang(selectedLang)}
           />
           <Switch>
-            <Route path="/category/:slug">
+            <Route path={`/category/:slug`}>
               <Category {...settings} />
             </Route>
-            <Route path="/movimento">
+            <Route path={`/movimento`}>
               <Movimento {...settings} />
             </Route>
-            <Route path="/laboratorio">
+            <Route path={`/laboratorio`}>
               <Laboratorio {...settings} />
             </Route>
-            <Route path="/participe">
+            <Route path={`/participe`}>
               <Participe {...settings} />
             </Route>
-            <Route path="/">
+            <Route path={`/`}>
               <Home {...settings} />
             </Route>
           </Switch>

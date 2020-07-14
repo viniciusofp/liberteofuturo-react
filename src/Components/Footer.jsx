@@ -21,7 +21,8 @@ class Footer extends Component {
     const languageSelector = (
       <div className="languageselector">
         <a onClick={() => this.props.onChangeLang('en')}>EN</a> |{' '}
-        <a onClick={() => this.props.onChangeLang('pt')}>PT</a>
+        <a onClick={() => this.props.onChangeLang('pt')}>PT</a> |{' '}
+        <a onClick={() => this.props.onChangeLang('es')}>ES</a>
       </div>
     );
     return (
@@ -35,12 +36,12 @@ class Footer extends Component {
               <Col className="align-self-center" lg="10" xl="9">
                 <ul>
                   <li>
-                    <Link className="menulink" to="/movimento">
+                    <Link className="menulink" to={`/movimento`}>
                       {pages.movimento[lang].menuTitle}
                     </Link>
                   </li>
                   <li>
-                    <Link className="menulink" to="/laboratorio">
+                    <Link className="menulink" to={`/laboratorio`}>
                       {pages.laboratorio[lang].menuTitle}
                     </Link>
                   </li>
@@ -54,7 +55,7 @@ class Footer extends Component {
                     </span>
                   </li>
                   <li>
-                    <Link className="menulink" to="/participe">
+                    <Link className="menulink" to={`/participe`}>
                       <Button size="sm">
                         {pages.participe[lang].menuTitle}
                       </Button>

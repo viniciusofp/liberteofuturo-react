@@ -10,9 +10,10 @@ class Laboratorio extends Component {
     return (
       <div className="laboratoriopage">
         <PageHero
-          logo={`/assets/logos/logo_vertical.svg`}
+          logo={require(`../assets/logos/logo_vertical.svg`)}
           descricao={laboratorio.subtitulo}
           titulo={laboratorio.titulo}
+          header="laboratorio"
         />
         <div className="page_content">
           <Container>

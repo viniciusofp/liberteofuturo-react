@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import _ from 'lodash';
+import teaser from '../assets/teaser.mp4';
 
 class TeaserLightbox extends Component {
   state = {};
@@ -15,7 +16,7 @@ class TeaserLightbox extends Component {
           <i className="fa fa-times"></i>
         </Button>
         <div className="video_lightbox-container">
-          <video src="./assets/teaser.mp4" autoPlay controls></video>
+          <video src={teaser} autoPlay controls></video>
         </div>
         <div className="video_lightbox-shadow" onClick={_openLightbox}></div>
       </div>

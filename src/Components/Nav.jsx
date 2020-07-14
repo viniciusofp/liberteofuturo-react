@@ -51,7 +51,8 @@ export default class Navmenu extends Component {
     const languageSelector = (
       <div className="languageselector">
         <a onClick={() => this.props.onChangeLang('en')}>EN</a> |{' '}
-        <a onClick={() => this.props.onChangeLang('pt')}>PT</a>
+        <a onClick={() => this.props.onChangeLang('pt')}>PT</a> |{' '}
+        <a onClick={() => this.props.onChangeLang('es')}>ES</a>
       </div>
     );
     return (
@@ -94,10 +95,10 @@ export default class Navmenu extends Component {
             <Container fluid>
               <Row>
                 <Col className="d-none d-xl-block" xs="12" lg="4" xl="5">
-                  <Link className="menulink" to="/movimento">
+                  <Link className="menulink" to={`/movimento`}>
                     {pages.movimento[lang].menuTitle}
                   </Link>
-                  <Link className="menulink" to="/laboratorio">
+                  <Link className="menulink" to={`/laboratorio`}>
                     {pages.laboratorio[lang].menuTitle}
                   </Link>
                 </Col>
@@ -112,7 +113,7 @@ export default class Navmenu extends Component {
                   xl={{ size: 2, offset: 0 }}
                   className="brand"
                 >
-                  <Link to="/">
+                  <Link to={`/`}>
                     <img src={logo} alt="" />
                   </Link>
                 </Col>
@@ -130,7 +131,7 @@ export default class Navmenu extends Component {
                     {pages.categories[lang].menuTitle}
                   </span>
 
-                  <Link className="menulink" to="/participe">
+                  <Link className="menulink" to={`/participe`}>
                     <Button size="sm">{pages.participe[lang].menuTitle}</Button>
                   </Link>
                 </Col>
@@ -167,7 +168,7 @@ export default class Navmenu extends Component {
                 <li>
                   <Link
                     onClick={this.toggle}
-                    to="/movimento"
+                    to={`/movimento`}
                     className="offcanvasmenu_header"
                   >
                     {pages.movimento[lang].menuTitle}
@@ -176,14 +177,14 @@ export default class Navmenu extends Component {
                 <li>
                   <Link
                     onClick={this.toggle}
-                    to="/laboratorio"
+                    to={`/laboratorio`}
                     className="offcanvasmenu_header"
                   >
                     {pages.laboratorio[lang].menuTitle}
                   </Link>
                 </li>
                 <li>
-                  <Link onClick={this.toggle} to="/participe">
+                  <Link onClick={this.toggle} to={`/participe`}>
                     <Button size="sm">{pages.participe[lang].menuTitle}</Button>
                   </Link>
                 </li>

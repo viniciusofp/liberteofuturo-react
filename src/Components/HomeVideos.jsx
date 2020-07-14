@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
 import VideoLightbox from './VideoLightbox';
+import catImages from '../data/categoryimages';
 
 class HomeVideos extends Component {
   state = {
@@ -93,10 +94,7 @@ class HomeVideos extends Component {
                   <section>
                     <Link to={`/category/${category.slug}`}>
                       <h2>
-                        <img
-                          src={`../assets/logos/${category.slug}.svg`}
-                          alt=""
-                        />
+                        <img src={catImages[category.slug].url} alt="" />
                         <span>0{index + 1}</span> {category[lang].titulo}
                         <small>VER</small>
                       </h2>

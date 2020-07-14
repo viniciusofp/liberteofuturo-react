@@ -10,7 +10,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Hero />
+        <Hero data={this.props.data} lang={this.props.lang} />
         <HomeVideos data={this.props.data} lang={this.props.lang} />
       </React.Fragment>
     );

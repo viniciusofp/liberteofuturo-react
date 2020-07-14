@@ -58,9 +58,10 @@ class Category extends Component {
     return (
       <div className="categorypage">
         <PageHero
-          logo={`/assets/logos/${slug}.svg`}
+          logo={require(`../assets/logos/${slug}.svg`)}
           descricao={data.categories[slug][lang].descricao}
           titulo={data.categories[slug][lang].titulo}
+          header={slug}
         />
 
         <div className="categorypage_videos">
@@ -83,7 +84,7 @@ class Category extends Component {
                   <Col {...colProps}>
                     <div className="categorypage_videos-box">
                       <img
-                        src={`https://img.youtube.com/vi/${video.identificador}/mqdefault.jpg`}
+                        src={`https://i.ytimg.com/vi/${video.identificador}/mqdefault.jpg`}
                         alt=""
                         onClick={() =>
                           this._openLightbox(video.identificador, index)

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import catImages from '../data/categoryimages';
 
 class CategoryMenu extends Component {
   state = {};
@@ -19,7 +20,7 @@ class CategoryMenu extends Component {
                     to={`/category/${category.slug}`}
                     onClick={toggleCategoryMenu}
                   >
-                    <img src={`/assets/logos/${category.slug}.svg`} alt="" />
+                    <img src={catImages[category.slug].url} alt="" />
                     <h3>
                       <span>0{index + 1}</span>
                       {category[lang].titulo}

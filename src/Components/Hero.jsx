@@ -16,35 +16,29 @@ class Hero extends Component {
     this.setState({ openLightbox });
   };
   render() {
+    const { data, lang } = this.props;
+    const { home } = data.pages;
     return (
       <React.Fragment>
         <div className="video-container">
           <div className="herocontent">
             <Container>
-              <h1>
-                Esse é o movimento
-                <br />
-                para libertar o futuro
-              </h1>
-              <p>
-                Traga suas cinco propostas, dispare perguntas,
-                <br />
-                imagine respostas para o futuro pós-pandemia
-              </p>
+              <h1>{home[lang].titulo}</h1>
+              <p>{home[lang].subtitulo}</p>
               <Button
                 color="danger"
                 className="mr-3 animate__animated animate__headShake animate__delay-1s bounce animate__repeat-3"
                 onClick={this._openLightbox}
               >
-                Veja o teaser <i className="fa fa-play"></i>
+                {home[lang].video} <i className="fa fa-play"></i>
               </Button>
-              <Link to="/movimento">
+              <Link to={`/movimento`}>
                 <Button color="dark" className="mr-3">
-                  Conheça
+                  {home[lang].conheca}
                 </Button>
               </Link>
-              <Link to="/participe">
-                <Button color="dark">Participe</Button>
+              <Link to={`/participe`}>
+                <Button color="dark">{home[lang].participe}</Button>
               </Link>
             </Container>
           </div>
