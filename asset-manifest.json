@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/liberteofuturo-react/static/css/main.0ca0c601.chunk.css",
-    "main.js": "/liberteofuturo-react/static/js/main.8e05553e.chunk.js",
-    "main.js.map": "/liberteofuturo-react/static/js/main.8e05553e.chunk.js.map",
+    "main.css": "/liberteofuturo-react/static/css/main.ee8c703b.chunk.css",
+    "main.js": "/liberteofuturo-react/static/js/main.c465a827.chunk.js",
+    "main.js.map": "/liberteofuturo-react/static/js/main.c465a827.chunk.js.map",
     "runtime-main.js": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js",
     "runtime-main.js.map": "/liberteofuturo-react/static/js/runtime-main.3f615cb3.js.map",
     "static/css/2.6c27cde9.chunk.css": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css",
-    "static/js/2.0f44f582.chunk.js": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js",
-    "static/js/2.0f44f582.chunk.js.map": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.map",
+    "static/js/2.1a3574d2.chunk.js": "/liberteofuturo-react/static/js/2.1a3574d2.chunk.js",
+    "static/js/2.1a3574d2.chunk.js.map": "/liberteofuturo-react/static/js/2.1a3574d2.chunk.js.map",
     "index.html": "/liberteofuturo-react/index.html",
-    "precache-manifest.0585bd8f361e13df277148a46acccfd7.js": "/liberteofuturo-react/precache-manifest.0585bd8f361e13df277148a46acccfd7.js",
+    "precache-manifest.c57cc007944a637ec035dfab35b63a6b.js": "/liberteofuturo-react/precache-manifest.c57cc007944a637ec035dfab35b63a6b.js",
     "service-worker.js": "/liberteofuturo-react/service-worker.js",
     "static/css/2.6c27cde9.chunk.css.map": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css.map",
-    "static/css/main.0ca0c601.chunk.css.map": "/liberteofuturo-react/static/css/main.0ca0c601.chunk.css.map",
-    "static/js/2.0f44f582.chunk.js.LICENSE.txt": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.LICENSE.txt",
+    "static/css/main.ee8c703b.chunk.css.map": "/liberteofuturo-react/static/css/main.ee8c703b.chunk.css.map",
+    "static/js/2.1a3574d2.chunk.js.LICENSE.txt": "/liberteofuturo-react/static/js/2.1a3574d2.chunk.js.LICENSE.txt",
     "static/media/HOME_DESTAQUE_13.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_13.3f987b97.jpg",
     "static/media/HOME_DESTAQUE_2.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_2.6bf028b7.jpg",
     "static/media/HOME_DESTAQUE_4.jpg": "/liberteofuturo-react/static/media/HOME_DESTAQUE_4.7b79e5ad.jpg",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.3f615cb3.js",
     "static/css/2.6c27cde9.chunk.css",
-    "static/js/2.0f44f582.chunk.js",
-    "static/css/main.0ca0c601.chunk.css",
-    "static/js/main.8e05553e.chunk.js"
+    "static/js/2.1a3574d2.chunk.js",
+    "static/css/main.ee8c703b.chunk.css",
+    "static/js/main.c465a827.chunk.js"
   ]
 }
