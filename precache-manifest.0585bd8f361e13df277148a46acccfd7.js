@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f68a008858f7f9c502e7cf804012a609",
+    "revision": "a0380f685d99c024c3dfe4cb11d85b1c",
     "url": "/liberteofuturo-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liberteofuturo-react/static/css/2.6c27cde9.chunk.css"
   },
   {
-    "revision": "18ae36ef1c0b4d2a8c81",
-    "url": "/liberteofuturo-react/static/css/main.202a7f3b.chunk.css"
+    "revision": "d7cd33f191d6a25ef5cc",
+    "url": "/liberteofuturo-react/static/css/main.0ca0c601.chunk.css"
   },
   {
     "revision": "d5b65d7f6a8e2a9631a4",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/liberteofuturo-react/static/js/2.0f44f582.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18ae36ef1c0b4d2a8c81",
+    "revision": "d7cd33f191d6a25ef5cc",
     "url": "/liberteofuturo-react/static/js/main.8e05553e.chunk.js"
   },
   {
